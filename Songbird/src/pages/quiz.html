@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+</head>
+<body class="body">
+  <header class="header">
+    <div class="header-section">
+      <a href="../index/index.html" class="logo">
+        <h1 class="header__h1">Song<span>bird</span></h1>
+      </a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__list__item">
+            <a href="../index/index.html" class="nav__list__item__link">Главная</a>
+          </li>
+          <li class="nav__list__item">
+            <a href="../quiz/quiz.html" class="nav__list__item__link">Викторина</a>
+          </li>
+          <li class="nav__list__item">
+            <a href="../gallery/gallery.html" class="nav__list__item__link">Галерея</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <ul class="header__lng__list">
+      <li class="lng__item lng-active">RU</li>
+      <li class="lng__item">EN</li>
+    </ul>
+  </header>
+  <main class="main">
+    <section class="section info">
+      <div class="info-block">
+        <div class="info-name">Score:</div>
+        <div class="info__score">0</div>
+      </div>
+
+      <ul class="info__list">
+        <li class="info__list__item">Разминка</li>
+        <li class="info__list__item">Воробьиные</li>
+        <li class="info__list__item">Лесные птицы</li>
+        <li class="info__list__item">Певчие птицы</li>
+        <li class="info__list__item">Хищные птицы</li>
+        <li class="info__list__item">Морские птицы</li>
+      </ul>
+    </section>
+    <section class="section question">
+      <div class="block-img">
+        <img class="question__img" alt="question__img">
+      </div>
+      <div class="block-info">
+        <div class="block-info__name">****</div>
+        <div class="block-info__audio">
+          <div class="audio__circle">
+            <img class="audio__btn play-audio" alt="">
+          </div>
+          <div class="audio__time">
+            <div class="start__time">00:00</div>
+            <div>/</div>
+            <div class="finish__time">00:00</div>
+          </div>
+          <input class="audio-scale" type="range" min="0" max="70" step="1" value="0">
+ 
+          <img alt="" class="icon-volume">
+          <input class="audio-volume volume-none" type="range" min="0" max="1" step="0.1" value="10">
+        </div>
+      </div>
+    </section>
+    <section class="section quiz">
+      <div class="quiz__answers">
+        <ul class="quiz__list">
+          <li class="quiz__list__item">111</li>
+          <li class="quiz__list__item">222</li>
+          <li class="quiz__list__item">333</li>
+          <li class="quiz__list__item">444</li>
+          <li class="quiz__list__item">555</li>
+          <li class="quiz__list__item">666</li>
+        </ul>
+      </div>
+      <div class="quiz__about">
+        <div class="quiz__about__div active-about__div">
+          <div class="about__block-img">
+            <img alt="about__img" class="about__img">
+          </div>
+          <div class="about__block-info">
+            <div class="about__block-info__name">name</div>
+            <div class="about__block-info__type">type</div>
+            <div class="audio__circle">
+              <img class="audio__btn-info audio__btn play-audio" alt="">
+            </div>
+            <input class="audio-scale" type="range" min="0" max="70" step="1" value="0">
+            <div class="audio__time">
+              <div class="start__time">00:00</div>
+              <div>/</div>
+              <div class="finish__time">11:11</div>
+            </div>
+            <div class="block-volume">
+              <img alt="" class="icon-volume-info">
+              <input class="audio-volume-info volume-none" type="range" min="0" max="1" step="0.1" value="10">
+            </div>
+          </div>
+          </div>
+          <p class="quiz__about__p">
+            text
+          </p>
+        </div>
+    </section>
+    <button class="next-btn">Next</button>
+  </main>
+  <footer class="footer">
+    <a href="https://github.com/gutsstas" class="link-git">
+      <div class="link-git__div">@Stanislav Gutsev</div>
+    </a>
+    <div class="footer-year">2022</div>
+    <a href="https://rs.school/js/" class="link-rs">
+      <img alt="link-rs__img" class="link-rs__img">
+    </a>
+  </footer>
+</body>
+</html>
